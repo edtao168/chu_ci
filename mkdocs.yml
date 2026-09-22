@@ -1,7 +1,31 @@
-site_name: 楚辭文件庫
+site_name: 中華經典文獻庫
+site_url: https://edtao168.github.io/jingdian/
+
 theme:
   name: material
+  language: zh-Hant
+  palette:
+    primary: indigo
+  features:
+    - navigation.tabs          # 頂部顯示「經部 | 史部 | 子部 | 集部」
+    - navigation.sections      # 左側側邊欄分塊
+    - navigation.indexes       # 允許點擊「楚辭」大項直接打開該目錄的 index.md
 
 nav:
-  - 首頁: index.md
-  - 九歌·山鬼: jiu_ge_shan_gui.md
+  - 總序: index.md
+  - 經部:
+      - 論語:
+          - 簡介: 01_jing/lun_yu/index.md
+          - 學而第一: 01_jing/lun_yu/01_xue_er.md
+          - 為政第二: 01_jing/lun_yu/02_wei_zheng.md
+      - 詩經:
+          - 簡介: 01_jing/shi_jing/index.md
+  - 史部:
+      - 史記: 02_shi/shi_ji/index.md
+  - 子部:
+      - 老子: 03_zi/lao_zi/index.md
+  - 集部:
+      - 楚辭:
+          - 解題與總目: 04_ji/chu_ci/index.md
+          - 離騷: 04_ji/chu_ci/01_li_sao.md
+          - 九歌·山鬼: 04_ji/chu_ci/jiu_ge/shan_gui.md
