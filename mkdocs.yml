@@ -1,0 +1,7 @@
+site_name: 楚辭文件庫
+theme:
+  name: material
+
+nav:
+  - 首頁: index.md
+  - 九歌·山鬼: jiu_ge_shan_gui.md
