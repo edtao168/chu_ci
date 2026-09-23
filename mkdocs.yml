@@ -1,4 +1,4 @@
-site_name: 中華經典文獻庫
+site_name: 散修讀經典
 site_url: https://edtao168.github.io/jingdian/
 
 theme:
@@ -8,16 +8,16 @@ theme:
     primary: indigo
   features:
     - navigation.tabs          # 頂部顯示「經部 | 史部 | 子部 | 集部」
-    - navigation.sections      # 左側側邊欄分塊
-    - navigation.indexes       # 允許點擊「楚辭」大項直接打開該目錄的 index.md
+    # - navigation.sections    # ⚠️ 務必刪除或註解這一行！否則左側不會縮排！
+    - navigation.indexes       # 允許點擊「論語」直接打開 index.md
 
 nav:
   - 總序: index.md
   - 經部:
       - 論語:
-          - 簡介: 01_jing/lun_yu/index.md
-          - 學而第一: 01_jing/lun_yu/01_xue_er.md
-          - 為政第二: 01_jing/lun_yu/02_wei_zheng.md
+          - 論語: 01_jing/lun_yu/index.md
+          - 學而: 01_jing/lun_yu/01_xue_er.md
+          - 為政: 01_jing/lun_yu/02_wei_zheng.md
       - 詩經:
           - 簡介: 01_jing/shi_jing/index.md
   - 史部:
