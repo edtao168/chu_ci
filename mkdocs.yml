@@ -7,9 +7,8 @@ theme:
   palette:
     primary: indigo
   features:
-    - navigation.tabs          # 頂部顯示「經部 | 史部 | 子部 | 集部」
-    # - navigation.sections    # ⚠️ 務必刪除或註解這一行！否則左側不會縮排！
-    - navigation.indexes       # 允許點擊「論語」直接打開 index.md
+    - navigation.tabs        # 頂部顯示「經部 | 史部 | 子部 | 集部」
+    - navigation.indexes     # 允許點擊「論語」直接打開 index.md
 
 nav:
   - 總序: index.md
@@ -18,6 +17,10 @@ nav:
           - 論語: 01_jing/lun_yu/index.md
           - 學而: 01_jing/lun_yu/01_xue_er.md
           - 為政: 01_jing/lun_yu/02_wei_zheng.md
+          - 八佾: 01_jing/lun_yu/03_ba_yi.md
+          - 里仁: 01_jing/lun_yu/04_li_ren.md
+          - 公冶長: 01_jing/lun_yu/05_gong_ya_zhang.md
+          - 雍也: 01_jing/lun_yu/06_yong_ye.md
       - 詩經:
           - 簡介: 01_jing/shi_jing/index.md
   - 史部:

@@ -1,3 +1,19 @@
+【散修讀經典】只是一個沒有宗門，資源貧瘠、修為普通的人，自己閱讀的理解。看時不要太挑剔，看完別跟我較真。
+
+---
+
+<h1>上傳及本地測試運行</h1>
+> 若有修改，在 mkdocs.yml 內調整 nav  
+> 若準備上傳 github（在 PowerShell 執行）  
+>> cd C:\laragon\www\jingdian  
+>> mkdocs gh-deploy  
+>> git add .  
+>> git commit -m "修正錯誤：九歌目錄設定錯誤"  
+>> git push  
+> 若打算在本地測試  
+>>（啟動本地服務器）mkdocs serve  
+>> 瀏覽器運行 http://127.0.0.1:8000/  
+
 <h1>建立新專案</h1>
 第一次先在 GitHub 上建立 Repository 並完成綁定。請按照以下步驟完成設定：
   
@@ -38,16 +54,3 @@ git push -u origin main
 >> Branch 選擇：gh-pages  
 >> Folder 選擇：/(root)  
 >> 點擊 Save 保存。    
-
-<br>
-
-<h1>本地測試運行</h1>
-> 若有修改，在 mkdocs.yml 內調整 nav  
-> 若有新增/修改文章且準備上傳 github（在 PowerShell 執行）  
->> cd C:\laragon\www\jingdian  
->> mkdocs gh-deploy  
->> git add .  
->> git commit -m "新增文章：論語-學而、為政"  
->> git push  
-> （啟動本地服務器）mkdocs serve  
-> 瀏覽器運行 http://127.0.0.1:8000/  
