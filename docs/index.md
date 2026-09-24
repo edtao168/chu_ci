@@ -10,3 +10,10 @@
 * **史部**：歷代史書典籍。
 * **子部**：諸子百家思想（《老子》等）。
 * **集部**：歷代詩詞文學總集（《楚辭》等）。
+
+<style>
+  pre {
+    white-space: pre-wrap !important;
+    word-break: break-all;
+  }
+</style>
