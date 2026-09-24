@@ -8,7 +8,7 @@
 >> cd C:\laragon\www\jingdian  
 >> mkdocs gh-deploy  
 >> git add .  
->> git commit -m "修正錯誤：九歌目錄設定錯誤"  
+>> git commit -m "新增文章：論語八佾"  
 >> git push  
 > 若打算在本地測試  
 >>（啟動本地服務器）mkdocs serve  
