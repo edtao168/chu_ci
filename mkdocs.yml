@@ -13,7 +13,17 @@ theme:
 nav:
   - 總序: index.md
   - 經部:
-      - 論語:
+      - 《詩經》:
+          - 簡介: 01_jing/shi_jing/index.md
+      - 《尚書》:
+          - 簡介: 01_jing/shang_shu/index.md
+      - 《周易》:
+          - 簡介: 01_jing/zhou_yi/index.md
+      - 《禮記》:
+          - 簡介: 01_jing/li_ji/index.md
+      - 《左傳》:
+          - 簡介: 01_jing/zuo_zhuan/index.md
+      - 《論語》:
           - 論語: 01_jing/lun_yu/index.md
           - 學而: 01_jing/lun_yu/01_xue_er.md
           - 為政: 01_jing/lun_yu/02_wei_zheng.md
@@ -35,12 +45,14 @@ nav:
           - 微子: 01_jing/lun_yu/18_wei_zi.md
           - 子張: 01_jing/lun_yu/19_zi_zhang.md
           - 堯曰: 01_jing/lun_yu/20_yao_yue.md
-      - 詩經:
-          - 簡介: 01_jing/shi_jing/index.md
+      
+      - 《孟子》: 01_jing/meng_zi/index.md
   - 史部:
-      - 史記: 02_shi/shi_ji/index.md
+      - 《史記》: 02_shi/shi_ji/index.md
   - 子部:
       - 老子: 03_zi/lao_zi/index.md
+      - 莊子: 03_zi/zhuang_zi/index.md
+      - 孫子兵法: 03_zi/sun_zi_bing_fa/index.md
   - 集部:
       - 楚辭:
           - 解題與總目: 04_ji/chu_ci/index.md
