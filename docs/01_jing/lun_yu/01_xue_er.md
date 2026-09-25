@@ -4,7 +4,7 @@ description:
 ---
 # 論語  學而
 ---
-
+<style>pre {white-space: pre-wrap !important; word-break: break-all;}</style>
 > 子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」
 
 	說：學了之後，反覆練習至成習慣，從過程中感受喜悅。這句話與「吾十有五而志于學」一致。
