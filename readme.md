@@ -8,7 +8,7 @@
 >> cd C:\laragon\www\jingdian  
 >> mkdocs gh-deploy  
 >> git add .  
->> git commit -m "新增文章：論語八佾"  
+>> git commit -m "新增文章：論語里仁、公冶長"  
 >> git push  
 > 若打算在本地測試  
 >>（啟動本地服務器）mkdocs serve  
